@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="banner">
+    <picture>
+      <img src="keyframe1.jpg" alt="Banner wacho" />
+    </picture>
+  </header>
+
+  <section class="cuenta-regresiva">
+    <h2>El descuento comienza en:</h2>
+    <div id="timer">
+      <span id="dias">2</span>d :
+      <span id="horas">2</span>h :
+      <span id="minutos">59</span>m :
+      <span id="segundos">59</span>s
+    </div>
+  </section>
+
+  <section class="faq">
+    <h2>Algunas Preguntas Frecuentes</h2>
+    <details>
+      <summary>¿Cuándo es el evento?</summary>
+      <p>El evento comienza el 9 de Agosto a las 00:00 hs.</p>
+    </details>
+    <details>
+      <summary>¿Cuanto puedo comprar?</summary>
+      <p>Todas las prendas que tu quierasss</p>
+    </details>
+    <details>
+      <summary>¿Dónde se realiza?</summary>
+      <p>Es un evento online que podrás seguir desde cualquier lugar.</p>
+    </details>
+  </section>
+
+  <section class="suscripcion">
+    <h2>Suscribite para recibir novedades y notificaciones</h2>
+    <form action="https://YOUR_BREVO_LINK" method="POST" target="_blank">
+      <input type="email" name="email" placeholder="Tu correo electrónico" required />
+      <button type="submit">Suscribirme</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
